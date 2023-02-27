@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+  </head>
+<body>
+  
+    <header id="main header">
+        <nav>
+        <ul >
+                <li><a href="#inicio" id="nav_inicio">INICIO</a></li>
+                <li><a href="#estudio" id="nav_estudio">ESTUDIO</a></li>
+                <li><a href="#experiencia" id="nav_experiencia">EXPERIENCIA</a></li>
+                <li><a href="#complemento" id="nav_complemento">COMPLEMENTO</a></li>
+                <li><a href="#contacto" id="nav_contacto">CONTACTO</a></li>
+         </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div>
+                <img class="avatar" src="IMAGEN_CV/foto de perfil.jpg" alt="Foto de Perfil" >  
+                <div class="datospersonales">
+                  <h1>Francisco Martinez Torrez <br>Ingeniero en Telecomunicaciones</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="estudio">
+          <div class="bloque">
+            <h2>ESTUDIOS</h2>
+            <div class="Universidad">
+              <div class="cuerpo_columna">
+                <div class="box">
+                  <h3>Universitat Politècnica de Catalunya <br>Máster en Ingeniería de Telecomunicación <br> Barcelona 09/2010</h3>
+                  <a href="https://www.upc.edu/es" target="_blank">Visite su pagina - UPC</a>
+                </div>
+                <div class="box">
+                  <h3>Universidad Autónoma de Barcelona <br>Ingeniería de Telecomunicaciones  <br> Barcelona 09/2020</h3>
+                  <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954409.html" target="_blank">Visite su pagina - UAB</a></div>
+                </div>
+              </div>    
+          </div>
+          </section>
+
+        <section id="experiencia">
+          <div class="bloque">
+          <h2>EXPERIENCIA</h2>
+          <div class="cuerpo_columna">
+            <div class="box">
+              <div class="container">
+          <h3>Ingeniero de telecomunicaciones Nextret <br> Girona 03/2018 - 07/2022 </h3>
+           <p>Diseño de redes informáticas</p> 
+           <p>Utilización de controladores de borde de sesión</p>
+           <p>Cálculo del coste de la instalación de dispositivos de telecomunicaciones</p>
+          </div>
+          </div>
+           <div class="box">
+          <h3>Ingeniero de telecomunicaciones Grupo AI <br> Girona 04/2012 - 12/2017</h3>
+           <p>Desarrollo de sistemas de comunicaciones y soporte a los usuarios del sistema</p>
+           <p>Definición de los requisitos técnicos para la gestión de proyectos</p>
+           <p>Diseño de redes informáticas y análisis de los requisitos del ancho de banda</p>
+          </div>
+          </div>
+          </section>
+
+        <section id="complemento">
+          <div class="bloque">
+             <h2>COMPLEMENTO</h2>
+             <div class="cuerpo_columna">
+               <div class="box">
+                 <h3>IDIOMAS</h3>
+                 <button class="button">Español - Nativo</button>
+                 <button class="button">Ingles - Avanzado</button>
+                </div>
+               <div class="box">
+                 <h3>SOFTWARE</h3>
+                 <button class="button">Wireshark</button>
+                 <button class="button">Nmap</button>
+                 <button class="button">Cisco</button>
+                </div>
+          </div>
+        </section>
+
+        <section id="contacto">
+          <h2>CONTACTO</h2>
+          <div class="cuerpo_columna">
+            <div class="box">
+              <div class="datospersonales">
+                <h3>Correo: franmatorrez@gmail.com</h3>
+                <h3>Ciudad: Madrid - España</h3>
+                <h3>Telefono: 691846732</h3>
+                <h3>Perfil de Linkedin</h3>
+              </div>
+           </div>
+           <div class="box">
+            <form class="form" action="https://formspree.io/f/meqwqwnb" method="POST">
+            <div class="form_container">
+                <input type="text" class="form__input" required="" placeholder="Nombre:" name="name" id="form_nombre">
+                <input type="email" class="form__input" required="" placeholder="E-mail:" name="_replyto">
+                <textarea class="form__input form__input--message" required="" placeholder="Mensaje:" rows="7" id="form_mensaje"></textarea>
+                <input type="submit" value="Enviar" class="form__cta" id="boton_enviar">
+            </div>
+            </form> 
+          </div> 
+          </div>
+          
+        </section>
+  
+    </main>
+
+    <script src="javascript.js"></script> 
+</body>
+</html>
